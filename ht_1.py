@@ -2,7 +2,7 @@
 #pip install streamlit
 from pathlib import Path
 import streamlit as st
-from streamlit_local_storage import LocalStorage
+#from streamlit_local_storage import LocalStorage
 #st.markdown(""
 #    .main {
 #        background-color: #0a0a2e;
@@ -32,6 +32,6 @@ st.download_button(
     file_name="ht.png",
     mime="image/png",
     )
-localS.setItem("site1", "done")
+#localS.setItem("site1", "done")
 
 st.link_button("For more  information:", "https://www.science.org/")
